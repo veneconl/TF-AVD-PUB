@@ -1,0 +1,32 @@
+<Configuration ID="9d6db634-80c5-48b1-9c4a-44103f74b884">
+  <Add OfficeClientEdition="32" Channel="MonthlyEnterprise">
+    <Product ID="O365BusinessRetail">
+      <Language ID="nl-nl" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Bing" />
+    </Product>
+    <Product ID="LanguagePack">
+      <Language ID="nl-nl" />
+      <ExcludeApp ID="Bing" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="en-us" />
+      <Language ID="fr-fr" />
+      <Language ID="de-de" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="1" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+  </AppSettings>
+  <Display Level="Full" AcceptEULA="TRUE" />
+  <Logging Level="Off" />
+</Configuration>
